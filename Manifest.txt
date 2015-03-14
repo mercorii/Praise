@@ -1,0 +1,19 @@
+Manifest
+{
+	# Name of the mods.
+  Name = "Praise mod"
+
+	# Description of the mod.
+  Description = "Praise extracts credits data from mods, and helps give credit to mod makers."
+
+  # Versioning
+  MajorVersion = 0
+  MinorVersion = 0
+  PatchVersion = 1
+
+  # The file path to the script that is the entry point.
+	ScriptFile = "Scripts/PraiseMod.lua"
+
+	# The script entry point class name
+	ScriptClass = "PraiseMod"
+}

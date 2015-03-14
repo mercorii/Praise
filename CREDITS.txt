@@ -1,0 +1,10 @@
+Credits
+{
+  TinyCredits = "Praise (0.0.1) - the mod that gives credit where it's due."
+
+  ShortCredits = "Code: Mercor"
+
+  LongCredits = "Code: Mercor (twitter: @mercorinred)"
+
+  FullCredits = "Code: Mercor (twitter: @mercorinred)"
+}
