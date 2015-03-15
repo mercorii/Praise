@@ -61,6 +61,7 @@ end
 
 -------------------------------------------------------------------------------
 -- Read through mods.txt, and extract credits from all mods listed in it, if they have CREDITS.txt.
+-- Based on JohnyCilohokla's code in CommonLib mod for TUG
 function PraiseMod:ExtractCredits()
 
 	self:Debug("Extracting credits from mods\n")
