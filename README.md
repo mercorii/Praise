@@ -6,6 +6,12 @@ It expects credits to be available in a file named CREDITS.txt at the root of th
 
 In addition to the official manifest.txt variables TUG supports, Praise also supports a third version parameter called PatchVersion.
 
+### How to show the credits in-game
+
+Praise doesn't show any data in-game.
+
+You need another mod to show the information provided by Praise. Praise only extracts the information from CREDITS.txt.
+
 ### How to use:
 
 ```
@@ -80,6 +86,12 @@ Credits
 
 #### How to install
 
-1.
-2.
-3.
+  1. Download the zip from the right -->
+  2. Extract the contents of the zip to folder TUG/Mods/Praise
+  3. Add line "Mods/Praise" to Config/mods.txt
+  4. Install mod that shows the information provided by Praise
+
+#### Known issues
+
+  * All spaces in names and descriptions are dropped.
+  * No mod to actually show the information extracted by Praise. There will soon™ be a mod to that.

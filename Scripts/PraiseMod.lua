@@ -28,6 +28,9 @@ end
 -- Called once from C++ at engine initialization time
 function PraiseMod:Initialize()
 
+  self.options = {}
+  self.options.useDebug = false
+
   self:ExtractCredits()
 
 end
@@ -152,10 +155,10 @@ function PraiseMod:ExtractCredits()
           table.insert(mods, mod)
         end
 
-        self:Debug("TinyCredits: " .. (mod.tinyCredits and mod.tinyCredits or "not found") .. "\n")
-        self:Debug("ShortCredits: " .. (mod.shortCredits and mod.shortCredits or "not found") .. "\n")
-        self:Debug("LongCredits: " .. (mod.longCredits and mod.longCredits or "not found") .. "\n")
-        self:Debug("FullCredits: " .. (mod.fullCredits and mod.fullCredits or "not found") .. "\n")
+       self:Debug("TinyCredits: " .. (mod.tinyCredits and mod.tinyCredits or "not found") .. "\n")
+       self:Debug("ShortCredits: " .. (mod.shortCredits and mod.shortCredits or "not found") .. "\n")
+       self:Debug("LongCredits: " .. (mod.longCredits and mod.longCredits or "not found") .. "\n")
+       self:Debug("FullCredits: " .. (mod.fullCredits and mod.fullCredits or "not found") .. "\n")
 			end
 		end
 		io.close(file)
@@ -173,9 +176,9 @@ end
 -------------------------------------------------------------------------------
 -- Uses NKPrint to print the message given as param
 function PraiseMod:Debug(msg)
---	if self.options.useDebug then
-  NKPrint(msg)
---	end
+	if self.options.useDebug then
+    NKPrint(msg)
+	end
 end
 
 EntityFramework:RegisterModScript(PraiseMod)
