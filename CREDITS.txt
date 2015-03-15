@@ -1,5 +1,7 @@
 Credits
 {
+  PraiseSyntax = "0.0.1"
+
   TinyCredits = "Praise (0.0.1) - the mod that gives credit where it's due."
 
   ShortCredits = "Code: Mercor"

@@ -4,7 +4,7 @@ Praise extracts credits data from mods, and helps give credit to mod makers.
 
 It expects credits to be available in a file named CREDITS.txt at the root of the mod folder. In addition to this, it also makes available the mod's information from its manifest.txt file.
 
-In addition to the official manifest.txt variables that TUG supports, Praise also supports a third version parameter called PatchVersion.
+In addition to the official manifest.txt variables TUG supports, Praise also supports a third version parameter called PatchVersion.
 
 ### How to use:
 
@@ -39,17 +39,19 @@ for mod in EternusEngine.mods.Praise.mods do
 end
 ```
 
-### CREDITS.txt syntax
+### CREDITS.txt syntax (syntax version 0.0.1)
 
+`PraiseSyntax`
 
+Version number describing the syntax you are using in your credits.
 
 `TinyCredits`
 
-Shortest form of credits (tweet size, max. 140 chars). Different to other formats, tiny credits is expected to contain mod's name in it. Expected to be used when there are lots of mods installed, but only little space or time to show credits.
+Shortest form of credits (tweet size, max. 140 chars). Different to other formats, as tiny credits is expected to contain mod's name in it. Expected to be used when there are lots of mods installed, but only little space or time to show credits.
 
 `ShortCredits`
 
-(max. 500 chars). Code using this field is expected to get the mod name from the name property (extracted from manifest.txt).
+Short credits. Max 500 chars. Code using this field is expected to get the mod name from the name property (extracted from manifest.txt).
 
 `LongCredits`
 
@@ -57,9 +59,10 @@ Longer credits. Max 1000 chars. Code using this field is expected to get the mod
 
 `FullCredits`
 
-Longest form of credits. No character limits.
+Longest form of credits. No character limits. Thank everyone you need to. This is the place for all the moose credits.
 
 #### Example CREDITS.txt
+
 ```
 Credits
 {
@@ -74,3 +77,9 @@ Credits
   FullCredits = "Extra long credits. No character limit. Mod name not included in the beginning."
 }
 ```
+
+#### How to install
+
+1.
+2.
+3.
