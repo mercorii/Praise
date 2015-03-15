@@ -89,7 +89,8 @@ Credits
   1. Download the zip from the right -->
   2. Extract the contents of the zip to folder TUG/Mods/Praise
   3. Add line "Mods/Praise" to Config/mods.txt
-  4. Install mod that shows the information provided by Praise
+  4. Install CommonLib by JohnyCilohokla. Required for mods to work with TUG 0.8.3 build. https://github.com/JohnyCilohokla/CommonLib
+  5. Install mod that shows the information provided by Praise
 
 #### Known issues
 
